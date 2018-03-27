@@ -136,6 +136,10 @@ namespace RTT
             Connections getConnections() const {
                 return connections;
             }
+            
+            std::list<ChannelDescriptor> getChannels() const {
+				return connections;
+			}
 
             /**
              * Returns a pointer to the shared connection element this port may be connected to.
